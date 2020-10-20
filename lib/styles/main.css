@@ -1,0 +1,67 @@
+.view-body {
+    width: 360px;
+    height: 300px;
+}
+
+.header {
+  overflow: hidden;
+  border-bottom: 1px black solid;
+}
+
+.logoimg {
+    height: 50px;
+    width: 50px;
+    margin-left: 44%;
+}
+
+/* Style the header links */
+.header a {
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 25px;
+  border-radius: 4px;
+}
+
+/* Style the logo link (notice that we set the same value of line-height and font-size to prevent the header to increase when the font gets bigger */
+.header a.logo {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+/* Add media queries for responsiveness - when the screen is 500px wide or less, stack the links on top of each other */
+@media screen and (max-width: 500px) {
+  .header a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+}
+
+.media-handles {
+  margin: 5%;
+}
+
+.tca-footer {
+    padding-top: 0;
+    width: -webkit-fill-available;
+    position: absolute;
+    bottom: 0%;
+}
+
+.tca-footer-head {
+    font-size: x-small;
+}
+
+.row-footer-overider {
+    margin-bottom: 0px;
+}
+
+.container-footer-overider {
+    width: -webkit-fill-available;
+}
+
+.input-word {
+  margin: 20px;
+}
