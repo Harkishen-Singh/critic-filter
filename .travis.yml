@@ -10,5 +10,4 @@ before_script:
   - npm install -g eslint prettier
 
 script:
-  - npm run lint
-  - npm run prettier
+  - ./travis-runner.sh
