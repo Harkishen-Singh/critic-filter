@@ -14,7 +14,8 @@
     "eslint:test": "eslint lib/ --color",
     "prettier:fix": "prettier 'lib/scripts/*.js' --write",
     "prettier:test": "prettier 'lib/scripts/*.js' --check",
-    "eslint:fix": "eslint . --fix"
+    "eslint:fix": "eslint . --fix",
+    "htmlhint:test": "htmlhint lib/ui/*/*.html"
   },
   "repository": {
     "type": "git",
