@@ -1,0 +1,14 @@
+os:
+  - linux
+
+language: node_js
+
+node_js:
+  - "stable"
+
+before_script:
+  - npm install -g eslint prettier
+
+script:
+  - npm run lint
+  - npm run prettier
