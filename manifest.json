@@ -12,7 +12,7 @@
     {
       "matches": ["<all_urls>"],
       "js": ["lib/scripts/content-scripts.js"],
-      "css": ["assets/css/material/css/material.min.css", "lib/styles/main.css"]
+      "css": ["lib/styles/main.css"]
     }
   ],
   "permissions": [
