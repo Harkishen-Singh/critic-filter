@@ -7,7 +7,6 @@ echo 'prefect linting'
 echo 'checking html lint standards'
 htmlhint lib/ui/**/**/*.html --rules=.htmlhintrc
 htmlhint lib/ui/**/*.html --rules=.htmlhintrc
-htmlhint lib/ui/*.html --rules=.htmlhintrc
 echo 'perfect html linting'
 
 echo 'checking code pretty'

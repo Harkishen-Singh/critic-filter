@@ -7,7 +7,7 @@ node_js:
   - "stable"
 
 before_script:
-  - npm install -g eslint prettier
+  - npm install -g eslint prettier htmlhint
 
 script:
   - ./travis-runner.sh
