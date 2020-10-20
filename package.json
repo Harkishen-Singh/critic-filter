@@ -1,0 +1,28 @@
+{
+  "name": "critic-filter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+  },
+  "devDependencies": {
+    "eslint": "^7.11.0",
+    "prettier": "^2.1.2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint .",
+    "prettier": "prettier '**/*.js' --check",
+    "eslint-fix": "eslint . --fix"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/muskankhedia/critic-filter.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/muskankhedia/critic-filter/issues"
+  },
+  "homepage": "https://github.com/muskankhedia/critic-filter#readme"
+}
