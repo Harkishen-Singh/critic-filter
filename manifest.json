@@ -11,8 +11,7 @@
   "content_scripts": [
     {
       "matches": ["<all_urls>"],
-      "js": ["lib/scripts/content-scripts.js"],
-      "run_at": "document_start"
+      "js": ["lib/scripts/content-scripts.js"]
     }
   ],
   "permissions": [
