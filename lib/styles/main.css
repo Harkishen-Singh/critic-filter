@@ -1,6 +1,48 @@
 .view-body {
-  width: 360px;
-  height: 300px;
+  width: 460px;
+  height: 500px;
+  background-color: #F9E3D7;
+}
+
+.blacklist-btn {
+  margin-top: 3%;
+}
+
+.blur-card {
+  background-color: rgba(255, 255, 255, 0.5);
+  padding: 3%;
+  margin: 2%;
+  border-radius: 10px;
+}
+
+.blur-card-head {
+  border-bottom: 1px solid #92827A;
+  margin-bottom: 1%;
+}
+
+.blur-card-inverted {
+  background-color: #F9E3D7;
+  color: black;
+  padding: 3%;
+  margin: 8% 2% 2% 2%;
+  border-radius: 10px;
+}
+
+.key {
+  font-weight: bold;
+}
+
+.value {
+  font-weight: normal;
+}
+
+.stats-content-cls {
+  font-size: 12px;
+  padding: 3%;
+}
+
+.quick-stats-cls {
+  margin-bottom: 10%;
 }
 
 .header {
@@ -60,6 +102,12 @@
 
 .container-footer-overider {
   width: -webkit-fill-available;
+}
+
+.footer-cls {
+  font-size: 11px;
+  padding: 2%;
+  font-weight: bold;
 }
 
 .input-word {

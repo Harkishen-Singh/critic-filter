@@ -1,9 +1,21 @@
 <div class="input-word">
-  <p>
-    list word
-  </p>
-  <ul id="word_view"></ul>
-
-  <input type="text" id="critic_word" ng-model="new_word">
-  <button type="submit" data-ng-click="addNewWord()">Add</button>
+  <div class="blur-card quick-stats-cls">
+    <div class="blur-card-head">
+      <h6>Quick Stats</h6>
+    </div>
+    <div class="row">
+      <div class="col-6">
+        <span class="blur-card-inverted stats-content-cls">
+          <span class="key">blacklisted-words:</span> <span class="value" id="blacklisted-words-value"></span>
+        </span>
+      </div>
+    </div>
+  </div>
+  <form>
+    <div class="form-group text-center">
+      <label for="exampleInputEmail1">Blacklist any word that you find disturbing/annoying.</label>
+      <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Blacklist a word" ng-model="new_word">
+      <button type="button" class="btn btn-dark blacklist-btn" data-ng-click="addNewWord()">Blacklist</button>
+    </div>
+  </form>
 </div>
