@@ -48,6 +48,10 @@
   text-align: center;
 }
 
+.quick-stats-cls {
+  margin-bottom: 10%;
+}
+
 .header {
   overflow: hidden;
   border-bottom: 1px black solid;
