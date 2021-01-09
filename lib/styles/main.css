@@ -41,6 +41,13 @@
   padding: 3%;
 }
 
+.reload-alert {
+  display: none;
+  font-size: 12px;
+  margin: 2%;
+  text-align: center;
+}
+
 .quick-stats-cls {
   margin-bottom: 10%;
 }
