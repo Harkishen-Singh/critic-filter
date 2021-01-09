@@ -41,8 +41,11 @@
   padding: 3%;
 }
 
-.quick-stats-cls {
-  margin-bottom: 10%;
+.reload-alert {
+  display: none;
+  font-size: 12px;
+  margin: 2%;
+  text-align: center;
 }
 
 .header {
