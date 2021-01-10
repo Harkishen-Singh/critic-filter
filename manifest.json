@@ -7,7 +7,7 @@
     "default_title": "Critic Filter",
     "default_popup": "lib/ui/popup/view.html"
   },
-  "content_security_policy": "script-src 'self' 'unsafe-eval'; object-src 'self'",
+  "content_security_policy": "script-src 'self' 'unsafe-hashes' 'unsafe-eval'; object-src 'self'",
   "content_scripts": [
     {
       "matches": ["<all_urls>"],

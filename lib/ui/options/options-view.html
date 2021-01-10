@@ -1,28 +1,19 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html lang="en" ng-app="critic-filter-settings">
 <head>
-    <title>Words List</title>
-    <script src="../../scripts/options.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title> Critic Filter | Settings </title>
     <link rel="stylesheet" href="../../styles/main.css">
-    <style>
-        .outerBox {
-            width: 300px;
-            border: 1px solid green;
-            padding: 5px;
-            margin: 2px;
-        }
-    </style>
+    <link rel="stylesheet" href="../../../assets/css/bootstrap.min.css">
 </head>
-
-<body>
-    <h1>Words list</h1>
-    <div class="outerBox">
-        <p>
-            List word
-        </p>
-        <ul id="word_view"></ul>
-    </div>
-</body>
-
+    <body class='container'>
+        <script src="../../../assets/js/angular.min.js"></script>
+        <script src="../../../assets/js/angular-route.js"></script>
+        <script type="module" src="../../scripts/options.js"></script>
+        <header ng-include="'./components/header-ui.html'"></header>
+        <main data-ng-view class='bg-light'></main>
+        <footer ng-include="'./components/footer-ui.html'"></footer>
+    </body>
 </html>
