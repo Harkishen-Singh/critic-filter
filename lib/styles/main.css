@@ -4,12 +4,23 @@
   background-color: #F9E3D7;
 }
 
+.options-bg {
+  background-color: #F9E3D7;
+}
+
 .blacklist-btn {
   margin-top: 3%;
 }
 
 .blur-card {
   background-color: rgba(255, 255, 255, 0.5);
+  padding: 3%;
+  margin: 2%;
+  border-radius: 10px;
+}
+
+.material-card {
+  background-color: rgba(255, 255, 255);
   padding: 3%;
   margin: 2%;
   border-radius: 10px;
