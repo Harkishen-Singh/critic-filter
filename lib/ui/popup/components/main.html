@@ -27,7 +27,7 @@
   <form class="blur-card">
     <div class="form-group text-center">
       <label for="exampleInputEmail1">Blacklist any word that you find disturbing/annoying.</label>
-      <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Blacklist a word" ng-model="new_word">
+      <input type="text" class="form-control" id="exampleInputEmail1" autocomplete="off"  aria-describedby="emailHelp" placeholder="Blacklist a word" ng-model="new_word">
       <button type="button" class="btn btn-dark blacklist-btn" data-ng-click="addNewWord()">Blacklist</button>
     </div>
   </form>
